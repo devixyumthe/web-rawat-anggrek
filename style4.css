@@ -1,0 +1,79 @@
+/* Reset some basic styles */
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: #333;
+    height: 100vh;
+    background-image: url('alinda12.jpg'); /* Tambahkan URL gambar di sini */
+    background-size: 200px 200px;
+    background-size: 80% 100%;
+    background-position: right; /* Posisikan di tengah */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #FF6F61;
+    width: 210px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h1 {
+    font-size: 1.8em;
+    color: #fff; /* Putih agar kontras */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Putih untuk visibilitas */
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #fff;
+    color: #FF6F61; /* Balik warna saat hover */
+}
+
+
+/* Main content styles */
+.content {
+    flex: 1; /* Take remaining space */
+    padding: 100px; /* Padding for the main content */
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 20px; /* Subheading size */
+    margin-bottom: 10px; /* Spacing below subheading */
+    text-align: center;
+    color :#0c0a0a;
+}
+
+.content p {
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 15px; /* Spacing below paragraphs */
+    text-align: center;
+}
+
+/* Add any other styles you need */
